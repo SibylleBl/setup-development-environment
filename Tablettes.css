@@ -1,0 +1,210 @@
+@font-face {
+      src: url('Fonts/Raleway-Medium.ttf');
+      font-family: 'Raleway',
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+ p
+ {
+       color: red; 
+       background-color: black;
+       font-size: 75%;
+ }
+
+
+ /* paramètres généraux*/
+
+*
+{
+    font-family: 'Raleway', arial, verdana, sans-serif;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+body 
+{ 
+    margin: 50px; 
+    padding : 50px;
+     
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* Entête */
+
+header
+{
+    display: flex; 
+    justify-content: space-between;
+    
+}
+
+/* barre de recherche */
+
+form i
+{
+    background-color: #F2F2F2;
+    border: 2px #F2F2F2 solid;
+    border-radius: 15px;
+}
+
+form a
+{
+    background-color: #0065fc;
+    color: white;
+    border: 1px #0065fc solid;
+    border-radius: 0px 10px 10px 0px;
+}
+
+form input
+{ 
+    background-color: white;
+    border: 3px #F2F2F2 solid;
+}
+
+/* filtres */
+
+#filtres button
+{
+    border: 3px #F2F2F2 solid;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#filtres button:hover
+{
+    background-color: #deebff;
+}
+
+#filtres i
+{
+    color: #0065fc;
+    border: 3px #deebff solid;
+    background-color: #deebff;
+}
+
+.info i
+{
+    color: #0065fc;
+}
+
+
+/* Toutes les Sections */
+section
+{
+    flex-wrap: wrap;  
+    
+
+}
+
+/* Hébergement à Marseille et Les plus populaires */
+
+
+#plus_populaires, #heb_marseille
+{
+    background-color: #F2F2F2;
+    border-radius: 15px;
+
+}
+
+
+#plus_populaires figure, #heb_marseille figure
+{
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    
+
+}
+
+#plus_populaires img, #heb_marseille img
+{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#plus_populaires p, #heb_marseille p
+{
+    margin: 0;
+}
+
+/* Hébergements Marseille */
+
+#heb_marseille
+{
+    display: flex;
+}
+
+
+
+/* Les plus populaires */
+
+
+#plus_populaires
+{
+    float: right;
+
+}
+
+#plus_populaires figure
+{
+    float: left;
+}
+
+
+
+
+
+
+/* Activités */
+
+#Activités_marseille
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+#Activités_marseille figure
+{
+    align-content: flex-start;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#Activités_marseille img
+{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+/* Bas de page */
+
+footer
+{
+    display: flex;
+}
+
+footer div
+{
+    margin-right: 12%;
+}
+
+}
